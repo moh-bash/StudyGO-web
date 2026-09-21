@@ -8,7 +8,7 @@ StudyGo is a polished, responsive landing page for a university productivity app
 
 The project is a dependency-light static website built with semantic HTML, CSS, and vanilla JavaScript.
 
-This repo for application ![@StudyGO-app](https://github.com/moh-bash/StudyGO-app)
+This repo for application [@StudyGO-app](https://github.com/moh-bash/StudyGO-app)
 
 ## Project Structure
 
