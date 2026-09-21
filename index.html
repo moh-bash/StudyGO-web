@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="StudyGo keeps your university life organized — from courses and grades to projects, deadlines, files, and focused study time.">
+  <meta property="og:title" content="StudyGo — University, sorted.">
+  <meta property="og:description" content="One friendly place for everything university.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://studygo.app/">
+  <meta property="og:image" content="https://studygo.app/assets/Happy.png">
+  <meta property="og:image:alt" content="StudyGo — University, sorted.">
+  <title>StudyGo — University, sorted.</title>
+  <link rel="icon" href="assets/Logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="StudyGo home"><img src="assets/Logo.png" alt="StudyGo"></a>
+      <div class="nav-links">
+        <a href="#features">Features</a><a href="#productivity">Productivity</a><a href="#tools">Tools</a><a href="#download">Download</a>
+      </div>
+      <a class="button button-small button-blue nav-cta" href="#download">Get StudyGo <span>↗</span></a>
+      <div class="language-switcher">
+        <button class="language-toggle" type="button" aria-expanded="false" aria-controls="language-menu" aria-label="Choose language"><span>EN</span><b>⌄</b></button>
+        <div class="language-menu" id="language-menu" role="menu">
+          <button type="button" role="menuitem" data-language="en">English</button>
+          <button type="button" role="menuitem" data-language="ar">العربية</button>
+        </div>
+      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span><b class="sr-only">Open menu</b></button>
+    </nav>
+    <div class="mobile-menu container" id="mobile-menu">
+      <a href="#features">Features</a><a href="#productivity">Productivity</a><a href="#tools">Tools</a><a href="#download">Download</a>
+      <div class="mobile-language" aria-label="Choose language"><button type="button" data-language="en">EN</button><span>|</span><button type="button" data-language="ar">العربية</button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Your academic sidekick</div>
+          <h1>University life,<br><em>sorted.</em></h1>
+          <p class="hero-lede">Courses, grades, projects, deadlines and the little things that matter — all in one calm, clever place.</p>
+          <div class="hero-actions"><a class="button button-blue" href="#download">Download StudyGo <span>↗</span></a><a class="text-link" href="#features">See how it works <span>↓</span></a></div>
+          <div class="hero-note"><span class="avatar-stack"><i>🎓</i><i>📚</i><i>✨</i></span><span><strong>Made for real student life</strong><br>Less remembering. More doing.</span></div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="spark spark-yellow">✦</div><div class="spark spark-blue">✦</div>
+          <div class="phone phone-hero">
+            <div class="phone-notch"></div>
+            <div class="app-top"><span class="app-greeting">Monday, 14 October</span><b>•••</b></div>
+            <h3>Good morning, Alex <span>👋</span></h3>
+            <div class="streak"><div class="streak-icon">⚡</div><div><strong>3 day streak</strong><small>Keep your momentum going</small></div><span class="mini-arrow">›</span></div>
+            <div class="app-stat-row"><div><small>Semester GPA</small><strong data-counter="3.72" data-decimals="2">0</strong><span class="positive">+0.18 this term</span></div><div><small>Course progress</small><strong data-counter="68" data-suffix="%">0</strong><div class="tiny-progress"><i data-progress="68"></i></div></div></div>
+            <div class="app-section-title"><strong>Coming up</strong><a href="#">View all</a></div>
+            <div class="task-row motion-item"><span class="task-icon pink">▣</span><div><strong>Web project proposal</strong><small>Due tomorrow · CS 302</small></div><b class="task-dot"></b></div>
+            <div class="task-row motion-item"><span class="task-icon purple">◷</span><div><strong>Study · Data structures</strong><small>Today, 6:00 PM</small></div><b class="task-dot done"></b></div>
+            <div class="app-nav"><span class="active">⌂<small>Home</small></span><span>▦<small>Calendar</small></span><span>✓<small>Tasks</small></span><span>◯<small>Profile</small></span></div>
+          </div>
+          <img class="hero-penguin" src="assets/Happy.png" alt="Happy StudyGo penguin mascot">
+          <div class="float-card grade-card"><span>↗</span><strong>+12%</strong><small>this semester</small></div>
+          <div class="float-card focus-card"><span>◷</span><strong>25:00</strong><small>focus session</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="features" data-motion-section>
+      <div class="container intro-grid">
+        <div class="intro-art reveal"><div class="blob blob-coral"></div><img src="assets/Idea.png" alt="StudyGo penguin thinking of a plan"></div>
+        <div class="intro-copy reveal"><div class="section-kicker">ONE PLACE. LESS CHAOS.</div><h2>Everything university.<br><span>One simple rhythm.</span></h2><p>StudyGo turns a busy semester into a clear next step. See what is happening, what needs doing, and where you are heading — without digging through five different apps.</p><div class="check-list"><div><b>✓</b><span>See the whole semester at a glance</span></div><div><b>✓</b><span>Keep every course and file together</span></div><div><b>✓</b><span>Make progress feel visible</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="feature-section grades section-pad" data-motion-section>
+      <div class="container feature-grid">
+        <div class="feature-copy reveal"><div class="section-kicker">KNOW YOUR PROGRESS</div><h2>Grades that tell<br><span>the whole story.</span></h2><p>Save results as you go and let StudyGo calculate your semester and cumulative GPA. No spreadsheets. No guessing. Just a clearer picture of how you are doing.</p><a class="text-link blue-link" href="#download">Track your progress <span>→</span></a></div>
+        <div class="grade-visual reveal"><div class="grade-sheet"><div class="sheet-top"><span>Academic overview</span><b>2025 / 26</b></div>        <div class="big-grade"><span>Current GPA</span><strong data-counter="3.72" data-decimals="2">0</strong><small>Excellent work, Alex <i>✦</i></small></div><div class="bar-label"><span>Semester progress</span><b data-counter="72" data-suffix="%">0</b></div><div class="long-bar"><i data-progress="72"></i></div><div class="course-bars"><div><span><b>CS 302</b> Web development</span><strong data-counter="92" data-suffix="%">0</strong><i><em data-progress="92"></em></i></div><div><span><b>MATH 204</b> Discrete mathematics</span><strong data-counter="84" data-suffix="%">0</strong><i><em data-progress="84"></em></i></div><div><span><b>BUS 110</b> Entrepreneurship</span><strong data-counter="76" data-suffix="%">0</strong><i><em data-progress="76"></em></i></div></div></div><img class="section-penguin penguin-grade" src="assets/Happy.png" alt="Proud StudyGo penguin mascot"></div>
+      </div>
+    </section>
+
+    <section class="feature-section calendar-section section-pad" data-motion-section>
+      <div class="container feature-grid reverse">
+        <div class="calendar-visual reveal"><div class="calendar-card"><div class="calendar-head"><div><small>October 2025</small><strong>My calendar</strong></div><span>‹ &nbsp; ›</span></div><div class="week"><b>MON</b><b>TUE</b><b>WED</b><b>THU</b><b>FRI</b></div><div class="dates"><span>13</span><span class="selected">14</span><span>15</span><span>16</span><span>17</span></div><div class="cal-events"><div class="cal-event blue-event"><i></i><span><b>Web project proposal</b><small>Due tomorrow · 09:00</small></span></div><div class="cal-event yellow-event"><i></i><span><b>Data structures lecture</b><small>Today · 14:00</small></span></div><div class="cal-event pink-event"><i></i><span><b>Midterm exam</b><small>Friday · 10:30</small></span></div></div></div><img class="section-penguin penguin-calendar" src="assets/Explaining.png" alt="StudyGo penguin explaining a calendar"></div>
+        <div class="feature-copy reveal"><div class="section-kicker">SEE WHAT'S NEXT</div><h2>A calendar that<br><span>gets student life.</span></h2><p>Exams, lectures, projects, holidays and the surprise things your semester throws at you. Put it all in one view and stop relying on memory.</p><div class="mini-pill-row"><span>Projects</span><span>Exams</span><span>Lectures</span><span>Events</span></div></div>
+      </div>
+    </section>
+
+    <section class="productivity section-pad" id="productivity" data-motion-section>
+      <div class="container productivity-head reveal"><div><div class="section-kicker">FROM “TOO MUCH” TO “I’VE GOT THIS”</div><h2>Make time for<br><span>the good stuff.</span></h2></div><p>Small steps add up. StudyGo helps you turn a noisy to-do list into a day you can actually finish.</p></div>
+      <div class="container productivity-board reveal"><div class="board-copy"><img src="assets/Neutral.png" alt="Focused StudyGo penguin mascot"><div><strong>Today’s focus</strong><p>One task at a time. You’re doing great.</p></div></div><div class="board-tasks"><div class="task-header"><strong>Tuesday, October 14</strong><span><b data-counter="4">0</b> of 6 done</span></div><div class="big-task completed motion-item"><b>✓</b><span>Review lecture notes</span><small>CS 302 · 25 min</small></div><div class="big-task motion-item"><b></b><span>Finish project proposal</span><small>CS 302 · Due tomorrow</small><button aria-label="Open task">→</button></div><div class="big-task motion-item"><b></b><span>Prepare questions for seminar</span><small>BUS 110 · 20 min</small><button aria-label="Open task">→</button></div></div><div class="pomodoro"><div class="pomodoro-top"><span>FOCUS TIMER</span><b>•••</b></div><div class="timer-ring"><strong>24:18</strong><small>deep focus</small></div><button class="pause-button">Ⅱ</button><div class="timer-caption">Your next break is in 24 minutes</div></div></div>
+    </section>
+
+    <section class="tools section-pad" id="tools" data-motion-section>
+      <div class="container tools-grid"><div class="tools-copy reveal"><div class="section-kicker">BUILT FOR THE IN-BETWEEN MOMENTS</div><h2>Tools that make<br><span>studying lighter.</span></h2><p>From a 25-minute focus sprint to a home for all your course files, StudyGo gives your brain fewer tabs to hold open.</p><a class="button button-outline" href="#download">Explore StudyGo <span>→</span></a></div><div class="tool-cards reveal"><div class="tool-card tool-blue"><span class="tool-icon">◷</span><strong>Pomodoro</strong><small>25 minutes of focus.<br>5 minutes to breathe.</small><b>Start a session&nbsp; →</b></div><div class="tool-card tool-lilac"><span class="tool-icon">▤</span><strong>Course files</strong><small>Notes, slides and links,<br>right where you need them.</small><b>Open your files&nbsp; →</b></div><div class="tool-card tool-yellow"><span class="tool-icon">♧</span><strong>Find a partner</strong><small>Meet classmates who<br>complement your skills.</small><b>See project matches&nbsp; →</b></div></div></div>
+    </section>
+
+    <section class="partners section-pad" data-motion-section>
+      <div class="container partners-grid"><div class="partner-visual reveal"><div class="partner-card"><div class="partner-top"><span>CS 302 · Web project</span><b>3 / 4 members</b></div><h3>Looking for a<br>UX designer <span>✦</span></h3><p>Build a campus companion with us.</p><div class="people"><i>👩🏽‍💻</i><i>👨🏻‍🎨</i><i>🧑🏾‍💻</i><i class="plus">+</i></div><div class="skill-tags"><span>Figma</span><span>Research</span><span>Frontend</span></div><button class="request-button">Send a request&nbsp; →</button></div><img src="assets/Explaining.png" alt="StudyGo penguin helping students collaborate"></div><div class="partners-copy reveal"><div class="section-kicker">BETTER TOGETHER</div><h2>Find your<br><span>project people.</span></h2><p>Good projects are easier with the right teammates. Share what you are working on, find students with complementary skills, and build something you are proud of.</p>      <div class="partner-stat"><strong data-counter="1240" data-suffix="+">0</strong><span>students looking for<br>project partners this week</span></div></div></div>
+    </section>
+
+    <section class="gogo-section section-pad" id="gogo" data-motion-section>
+      <div class="container gogo-grid">
+        <div class="gogo-stage reveal">
+          <div class="gogo-bubble bubble-one">✦</div><div class="gogo-bubble bubble-two">•</div>
+          <div class="gogo-halo"></div>
+          <div class="gogo-character"><img id="gogo-image" src="assets/Happy.png" alt="GoGo the StudyGo penguin looking happy"></div>
+          <div class="gogo-caption"><span class="gogo-status"></span><span>GoGo is with you</span></div>
+        </div>
+        <div class="gogo-content reveal">
+          <div class="section-kicker">YOUR ACADEMIC SIDEKICK</div>
+          <h2>Meet <span>GoGo.</span></h2>
+          <p class="gogo-intro">GoGo is your StudyGo companion — here to cheer you on, keep you motivated, and share every step of your academic journey.</p>
+          <div class="gogo-message" aria-live="polite">
+            <span class="gogo-message-label">Happy</span>
+            <h3 id="gogo-title">You’re on a roll!</h3>
+            <p id="gogo-copy">You stayed consistent and kept moving forward. That makes me happy!</p>
+          </div>
+          <div class="emotion-picker" aria-label="Choose GoGo's mood">
+            <button class="emotion-button active" type="button" data-emotion="happy" aria-label="Show GoGo happy" aria-pressed="true">😊</button>
+            <button class="emotion-button" type="button" data-emotion="sad" aria-label="Show GoGo sad" aria-pressed="false">😔</button>
+            <button class="emotion-button" type="button" data-emotion="angry" aria-label="Show GoGo angry" aria-pressed="false">😠</button>
+            <button class="emotion-button" type="button" data-emotion="tired" aria-label="Show GoGo tired" aria-pressed="false">😴</button>
+            <button class="emotion-button" type="button" data-emotion="worried" aria-label="Show GoGo worried" aria-pressed="false">😟</button>
+            <button class="emotion-button" type="button" data-emotion="grumpy" aria-label="Show GoGo grumpy" aria-pressed="false">😤</button>
+            <button class="emotion-button" type="button" data-emotion="friendly" aria-label="Show GoGo friendly" aria-pressed="false">👋</button>
+            <button class="emotion-button" type="button" data-emotion="idea" aria-label="Show GoGo having an idea" aria-pressed="false">💡</button>
+            <button class="emotion-button" type="button" data-emotion="shy" aria-label="Show GoGo shy" aria-pressed="false">🙈</button>
+          </div>
+          <div class="gogo-journey"><span>Start</span><i></i><span>Struggle</span><i></i><span>Focus</span><i></i><span>Progress</span><i></i><span>Celebrate</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download section-pad" id="download">
+      <div class="container download-box"><div class="download-shape shape-left"></div><div class="download-content reveal"><a class="download-logo-link" href="#top" aria-label="Back to StudyGo home"><img class="download-logo" src="assets/Logo.png" alt="StudyGo logo"></a><h2>Ready to make<br><span>university easier?</span></h2><p>Download StudyGo and bring your whole academic life into focus.</p><div class="store-buttons"><a href="#" class="store-button" aria-label="Download on the App Store"><b>●</b><span><small>Download on the</small>App Store</span></a><a href="#" class="store-button" aria-label="Get it on Google Play"><b>▶</b><span><small>GET IT ON</small>Google Play</span></a></div><small class="coming">Available on iOS and Android · Free to get started</small></div><img class="download-penguin" src="assets/Idea.png" alt="Excited StudyGo penguin mascot"><div class="download-shape shape-right">✦</div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="#top" aria-label="Back to StudyGo home"><img src="assets/Logo.png" alt="StudyGo"></img><p>University, sorted.<br>One calm step at a time.</p></div><div class="footer-links"><div><strong>Explore</strong><a href="#features">Features</a><a href="#productivity">Productivity</a><a href="#tools">Study tools</a></div><div><strong>Get StudyGo</strong><a href="#download">iPhone</a><a href="#download">Android</a><a href="#download">About the app</a></div><div><strong>Say hello</strong><a href="mailto:hello@studygo.app">hello@studygo.app</a><a href="https://github.com/moh-bash" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></div><div class="container footer-bottom"><span>© 2025 StudyGo. Made for students.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
