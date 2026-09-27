@@ -2,8 +2,8 @@
 
 StudyGo is a polished, responsive landing page for a university productivity application. It presents StudyGo as a friendly academic companion that helps students manage courses, grades, projects, deadlines, files, tasks, and focused study time.
 <div align="center" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-<img src="assets/Logo.png" alt="StudyGo brand logo for a university productivity application, presented on a plain background" width="200" height="200">
-<img src="assets/cover.png" alt="StudyGo landing page hero showing a friendly academic productivity application interface for managing courses, grades, projects, deadlines, files, tasks, and focused study time in a clean, welcoming layout" width="800" height="400">
+<img src="assets/Logo.webp" alt="StudyGo brand logo for a university productivity application, presented on a plain background" width="200" height="200">
+<img src="assets/cover.webp" alt="StudyGo landing page hero showing a friendly academic productivity application interface for managing courses, grades, projects, deadlines, files, tasks, and focused study time in a clean, welcoming layout" width="800" height="400">
 </div>
 
 The project is a dependency-light static website built with semantic HTML, CSS, and vanilla JavaScript.
@@ -18,7 +18,7 @@ StudyGo-WEB/
 ├── README.md
 ├── DESIGN.md
 ├── assets/
-│   └── *.png
+│   └── *.webp
 ├── css/
 │   └── styles.css
 └── js/
