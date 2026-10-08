@@ -47,7 +47,3 @@ The page loads these Google Fonts:
 - IBM Plex Sans Arabic
 
 The App Store and Google Play buttons are currently visual placeholders because production store URLs have not been provided.
-
-## License
-
-MIT
